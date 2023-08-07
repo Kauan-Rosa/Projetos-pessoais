@@ -1,0 +1,23 @@
+body {
+    background: rgb(2, 73, 89);
+    color: rgb(242, 227, 213);
+    text-align: center;
+    font-size: 30px;
+
+} section {
+    background: rgb(202, 202, 202);
+    width: 600px;
+    height: 600px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+    color: rgb(32, 32, 34);
+
+} div#dia {
+    text-align: center;
+    padding: 8px;
+    font-size: 40px;
+} div#bomdia {
+    padding: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}

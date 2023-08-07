@@ -1,0 +1,139 @@
+@font-face {
+    font-family: nasa;
+    src: url('fontes/nasalization-rg.otf');
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: linear-gradient(to right,#2e2e6c,#484892, #1f1f47);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+header {
+    color: white;
+    width: auto;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background-image: linear-gradient(to bottom, #064aa4, #034075);
+}
+
+header > h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: nasa;
+    text-decoration: underline;
+    text-shadow: 3px 3px 3px #021d3645;
+}
+
+header > h1:hover {
+    color: #d6e7fe;
+    transition: 0.5s all;
+}
+  
+nav {
+    background-color: #034075;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.272);
+}
+
+nav > a {
+    display: inline-block;
+    font-family: nasa;
+    font-size: 24px;
+    padding: 20px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    background-color: #01295e;
+    color: #d1e1f6;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+main {
+    background-image: linear-gradient(to right, white, rgb(244, 244, 244));
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.182);
+    min-width: 320px;
+    max-width: 1200px;
+    padding-bottom: 20px;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+main h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #021D36;
+    text-shadow: #00152f57;
+}
+
+main p {
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 35px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+main a {
+    text-decoration: none;
+    color: #00152f;
+    background-color: #0057c9b5;
+    line-height: 35px;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.328);
+
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+.nasa {
+    font-family: nasa;
+}
+
+ul {
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: '➜';
+    list-style-position: inside;
+}
+
+div {
+    background-color: #033E8C;
+    border-radius: 20px;
+    margin: 30px 30px 30px 30px;
+    padding: 20px;
+    padding-bottom: 55%;
+    position: relative;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.293);
+}
+
+div > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.322);
+}

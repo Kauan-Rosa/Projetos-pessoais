@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+h1 {
+    border: 10px dashed yellowgreen;
+    text-align: center;
+    margin: 100px;
+}
+
+p {
+    border: 4px solid rgba(0, 255, 255, 0.49);
+    padding: 4px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    border: 4px solid rgb(255, 0, 0);
+    padding: 4px;
+}
